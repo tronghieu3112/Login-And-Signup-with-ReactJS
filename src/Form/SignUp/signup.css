@@ -1,0 +1,53 @@
+.container{
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgb(206, 205, 205);
+}
+.container i{
+    margin: 20px 0px;
+}
+.container input{
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.container button{
+    margin: 20px 0px ;
+    width: 200px;
+    height:35px;
+    border-radius: 8px;
+}
+.container span a{
+    font-weight: bold;
+}
+.container  .export a{
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 100%;
+    color: black;
+    padding: 10px;
+    margin-left: 25px;
+}
+.container .export .google{
+    border-color: #DB4437;
+    color: #DB4437;
+}
+.container .export .facebook{
+    color: #4285F4;
+    border-color: #4285F4;
+}
+.container .export .tiktok{
+    color: #E389B9;
+    border-color: #E389B9;
+}
+.container .export .twitter{
+    color: #4285F4;
+    border-color: #4285F4;
+}
